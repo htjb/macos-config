@@ -15,7 +15,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias python3="python3.11"
 
-if [-n "$TMUX" ]; then
+if [ -n "$TMUX" ]; then
 	tmux source-file ~/.config/.tmux.conf
 fi
 
